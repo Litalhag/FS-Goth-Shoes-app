@@ -1,0 +1,8 @@
+node_modules/
+.DS_Store
+*.env
+.vscode
+_data
+seeder.js
+config/config.env
+desktop.ini
