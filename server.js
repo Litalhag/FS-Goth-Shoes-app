@@ -1,6 +1,7 @@
 import express from 'express'
 import dotenv from 'dotenv'
 import morgan from 'morgan'
+import cors from 'cors'
 import colors from 'colors'
 
 import errorHandler from './middleware/error.js'
@@ -17,6 +18,12 @@ connectDB()
 import shoes from './routes/shoe.js'
 
 const app = express()
+
+// Enable CORS (Cross-Origin Resource Sharing)
+/*
+  CORS is a web security mechanism that allows web applications to access resources hosted on other domains while protecting against unauthorized access and web-based attacks.
+*/
+app.use(cors())
 
 // Body parser
 app.use(express.json())

@@ -1,0 +1,202 @@
+/*
+=============== 
+Navbar
+===============
+*/
+
+@media (min-width: 320px) and (max-width: 479px) {
+  .nav-toggle {
+    width: 5rem;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .nav-toggle {
+    display: none;
+  }
+  .nav-header {
+    padding: 0;
+  }
+  .nav-center {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  .links-container {
+    height: auto !important;
+  }
+  .links {
+    display: flex;
+    gap: 0.5rem;
+  }
+  .links a {
+    padding: 0;
+  }
+  .links a:hover {
+    padding: 0;
+    background: transparent;
+  }
+  .social-icons {
+    display: flex;
+    gap: 0.5rem;
+  }
+  .social-icons a {
+    color: var(--primary-500);
+    transition: var(--transition);
+  }
+  .social-icons a:hover {
+    color: var(--primary-300);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home h1 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .admin-log {
+    position: absolute;
+    top: 60px;
+    top: 38px;
+    right: 10px;
+    right: 25px;
+    flex-direction: column;
+  }
+}
+
+/*
+=============== 
+Header
+===============
+*/
+/* Larger mobile view or small tablet */
+@media (min-width: 320px) and (max-width: 479px) {
+  .goth-img-one {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Tablet view */
+@media (min-width: 600px) {
+  .goth-img-one {
+    width: 150rem;
+    height: 75rem;
+  }
+}
+
+/* Small to regular desktop view */
+@media (min-width: 900px) {
+  .goth-img-one {
+    width: 180rem;
+    height: 90rem;
+  }
+}
+
+/* Larger mobile view or small tablet */
+@media (min-width: 320px) and (max-width: 479px) {
+  .goth-text {
+    font-size: 7rem;
+    top: 10rem;
+    text-align: center;
+  }
+
+  .narrow-icon {
+    font-size: 8rem;
+    top: 17rem;
+  }
+}
+
+/* Tablet view */
+@media (min-width: 600px) {
+  .goth-text {
+    font-size: 12rem;
+    top: 20rem;
+  }
+}
+
+/* Small to regular desktop view */
+@media (min-width: 900px) {
+  .goth-text {
+    font-size: 16rem;
+    top: 25rem;
+  }
+}
+
+/* Larger desktop view */
+@media (min-width: 1200px) {
+  .goth-text {
+    font-size: 20rem;
+    top: 30rem;
+  }
+}
+
+/* Very large screens/desktops */
+@media (min-width: 1500px) {
+  .goth-text {
+    font-size: 24rem;
+    top: 35rem;
+  }
+}
+/*
+=============== 
+Products
+===============
+*/
+/* Larger mobile view or small tablet */
+@media (min-width: 375px) {
+  .product-card {
+    /* Resetting the margin-right to maintain consistency */
+    margin: 1rem 1rem;
+  }
+}
+
+/* Tablet view */
+@media (min-width: 600px) {
+  .product-card {
+    width: calc(50% - 2rem); /* 2 cards per row */
+  }
+}
+
+/* Small desktop view */
+@media (min-width: 900px) {
+  .product-card {
+    width: calc(33.33% - 2rem); /* 3 cards per row */
+  }
+}
+
+/* Regular desktop view */
+@media (min-width: 1200px) {
+  .product-card {
+    width: calc(25% - 2rem); /* 4 cards per row */
+    /* Reset the margin-left for clarity and consistency */
+    margin: 1rem 1rem;
+  }
+}
+
+/* Larger desktop view */
+@media (min-width: 1500px) {
+  .product-card {
+    width: calc(20% - 2rem); /* 5 cards per row */
+  }
+}
+/*
+=============== 
+Edit Product
+===============
+*/
+@media (max-width: 600px) {
+  form {
+    padding: 1rem;
+  }
+
+  button {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+}

@@ -1,0 +1,177 @@
+[
+  {
+    "id": "1",
+    "name": "Beetlejuice Boots",
+    "image": "https://raw.githubusercontent.com/Litalhag/FS-Goth-Shoes-app/main/images/beetlejuiceBoots.jpg",
+    "price": "290",
+    "description": "Best boots for a gothic party"
+  },
+  {
+    "id": "2",
+    "name": "Black Cat Shoes",
+    "image": "https://github.com/Litalhag/FS-Goth-Shoes-app/blob/main/images/blackCatShoes.jpg?raw=true",
+    "price": 250,
+    "description": "Your everyday shoe!"
+  },
+  {
+    "id": "3",
+    "name": "Bring it on Boots",
+    "image": "https://github.com/Litalhag/FS-Goth-Shoes-app/blob/main/images/Bring-it-on!-Boots.jpg?raw=true",
+    "price": 300,
+    "description": "Unique shoes, the toughest boots!"
+  },
+  {
+    "id": "4",
+    "name": "Cant Escape Platform sandals",
+    "image": "https://github.com/Litalhag/FS-Goth-Shoes-app/blob/main/images/Can_t-escape-platform-shoes.jpg?raw=true",
+    "price": 220,
+    "description": "Beautiful platform sandals"
+  },
+  {
+    "id": "5",
+    "name": "Chunky Trainers",
+    "image": "https://github.com/Litalhag/FS-Goth-Shoes-app/blob/main/images/Chunky-Trainers.jpg?raw=true",
+    "price": 210,
+    "description": "The coolest sports you'l ever get"
+  },
+  {
+    "id": "6",
+    "name": "Dark Combat",
+    "image": "https://github.com/Litalhag/FS-Goth-Shoes-app/blob/main/images/Dark-Combat-BOOTS.jpg?raw=true",
+    "price": 280,
+    "description": "Elegant tall boots"
+  },
+  {
+    "id": "7",
+    "name": "Dark Swan Ballet Flats",
+    "image": "https://github.com/Litalhag/FS-Goth-Shoes-app/blob/main/images/Dark-Swan-Ballet-Flats.jpg?raw=true",
+    "price": 180,
+    "description": "Gothic Ballet flat snickers"
+  },
+  {
+    "id": "8",
+    "name": "Goth Cowboy Boots",
+    "image": "https://github.com/Litalhag/FS-Goth-Shoes-app/blob/main/images/Goth-Cowboy-Boots.jpg?raw=true",
+    "price": 310,
+    "description": "Cowboy boots for your best look!"
+  },
+  {
+    "id": "9",
+    "name": "Lets Dance Boots",
+    "image": "https://github.com/Litalhag/FS-Goth-Shoes-app/blob/main/images/Let_s-Dance-Boots.jpg?raw=true",
+    "price": 350,
+    "description": "Perfect purple shoes!"
+  },
+  {
+    "id": "10",
+    "name": "Lock You Up Platform Shoes",
+    "image": "https://github.com/Litalhag/FS-Goth-Shoes-app/blob/main/images/LockU-Up-Platform-Shoes.jpg?raw=true",
+    "price": 330,
+    "description": "The tallest shoes ever!"
+  },
+  {
+    "id": "11",
+    "name": "Lolli Purple",
+    "image": "https://github.com/Litalhag/FS-Goth-Shoes-app/blob/main/images/Lolli-Purple.jpg?raw=true",
+    "price": 300,
+    "description": "Beautiful lady sandals!"
+  },
+  {
+    "id": "12",
+    "name": "Magic spell Platform shoes",
+    "image": "https://github.com/Litalhag/FS-Goth-Shoes-app/blob/main/images/Magic-spell-Platform-shoes.jpg?raw=true",
+    "price": 200,
+    "description": "Amazing Doll basic shoes"
+  },
+  {
+    "id": "13",
+    "name": "Metal Night Boots",
+    "image": "https://github.com/Litalhag/FS-Goth-Shoes-app/blob/main/images/Metal-Night-Boots.jpg?raw=true",
+    "price": 330,
+    "description": "Beautiful tall boots!"
+  },
+  {
+    "id": "14",
+    "name": "Naughty Girl Shoes",
+    "image": "https://github.com/Litalhag/FS-Goth-Shoes-app/blob/main/images/Naughty-Girl-Shoes.jpg?raw=true",
+    "price": 400,
+    "description": "Naughty doll shoes!"
+  },
+  {
+    "id": "15",
+    "name": "Nighty Night Sandals",
+    "image": "https://github.com/Litalhag/FS-Goth-Shoes-app/blob/main/images/Nighty-Night-Sandals.jpg?raw=true",
+    "price": 280,
+    "description": "Elegant beautiful sandals"
+  },
+  {
+    "id": "16",
+    "name": "Pandora KNEEHIGHBOOTS",
+    "image": "https://github.com/Litalhag/FS-Goth-Shoes-app/blob/main/images/Pandora-kneehighboots.jpg?raw=true",
+    "price": 340,
+    "description": "Crazy tall boots"
+  },
+  {
+    "id": "17",
+    "name": "Poke You! Platform Shoes",
+    "image": "https://github.com/Litalhag/FS-Goth-Shoes-app/blob/main/images/PokeU-Platform-Shoes.jpg?raw=true",
+    "price": 260,
+    "description": "Nits Sandals-will work with any outfit!"
+  },
+  {
+    "id": "18",
+    "name": "Siren Platform shoes",
+    "image": "https://github.com/Litalhag/FS-Goth-Shoes-app/blob/main/images/Siren-Platform-shoes.jpg?raw=true",
+    "price": 290,
+    "description": "The most gothic sandals"
+  },
+  {
+    "id": "19",
+    "name": "Witchy Witch Boots",
+    "image": "https://github.com/Litalhag/FS-Goth-Shoes-app/blob/main/images/Witchy-Witch-Boots.jpg?raw=true",
+    "price": 290,
+    "description": "Elegant tall shoes, with best price"
+  },
+  {
+    "id": "20",
+    "name": "Fairytale Pumps",
+    "image": "https://github.com/Litalhag/FS-Goth-Shoes-app/blob/main/images/Fairytale-Pumps.jpg?raw=true",
+    "price": 215,
+    "description": "Fancy gothic sandals"
+  },
+  {
+    "id": "21",
+    "name": "Gothic Rock Shoes",
+    "image": "https://github.com/Litalhag/FS-Goth-Shoes-app/blob/main/images/shoes-gothic-rock.jpg?raw=true",
+    "price": 190,
+    "description": "Rock and Shoes Roll "
+  },
+  {
+    "id": "22",
+    "name": "Demonlicious Slippers",
+    "image": "https://github.com/Litalhag/FS-Goth-Shoes-app/blob/main/images/Demonlicious-Pink-Slippers.jpg?raw=true",
+    "price": 110,
+    "description": "Pink demons Slippers"
+  },
+  {
+    "id": "23",
+    "name": "You Scared Slippers",
+    "image": "https://github.com/Litalhag/FS-Goth-Shoes-app/blob/main/images/U-Scared-Slippers.jpg?raw=true",
+    "price": 90,
+    "description": "Dont Be Scared!"
+  },
+  {
+    "id": "25",
+    "name": "Halloween Slippers",
+    "image": "https://github.com/Litalhag/FS-Goth-Shoes-app/blob/main/images/Halloween-Slippers.jpg?raw=true",
+    "price": 100,
+    "description": "For your Halloween!"
+  },
+  {
+    "id": "26",
+    "name": "Feed Me Slippers",
+    "image": "https://github.com/Litalhag/FS-Goth-Shoes-app/blob/main/images/Feed-Me-Slippers.jpg?raw=true",
+    "price": 100,
+    "description": "Yammy slippers"
+  }
+]

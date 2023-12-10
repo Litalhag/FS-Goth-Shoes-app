@@ -11,6 +11,7 @@ export const getShoes = asyncHandler(async (req, res, next) => {
   return res
     .status(200)
     .json({ success: true, count: shoes.length, data: shoes })
+  // .json(shoes)
 })
 
 // @desc    Get single shoe
