@@ -9,7 +9,7 @@ console.log('BASE URL:', BASE_URL)
 export const getAllShoes = async () => {
   try {
     const res = await axios.get(`${BASE_URL}/shoes`)
-    console.log(res.data)
+    // console.log(res.data)
     return res.data.data
   } catch (error) {
     console.log(error)
@@ -32,7 +32,7 @@ export const getShoe = async (shoeId) => {
 export const updateShoeData = async (shoe, shoeId) => {
   try {
     const res = await axios.put(`${BASE_URL}/shoes/${shoeId}`, shoe)
-    console.log(res.data.data)
+    // console.log(res.data.data)
     return res.data.data
   } catch (error) {
     console.error(error)
