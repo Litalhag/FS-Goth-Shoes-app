@@ -5,7 +5,7 @@ import {
   createShoe,
   updateShoe,
   deleteShoe,
-} from '../controllers/shoes'
+} from '../controllers/shoes.js'
 
 const router = express.Router()
 

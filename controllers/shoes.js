@@ -1,6 +1,6 @@
-import ErrorResponse from '../utils/errorResponse'
-import asyncHandler from '../middleware/async'
-import Shoe from '../models/Shoe'
+import ErrorResponse from '../utils/errorResponse.js'
+import asyncHandler from '../middleware/async.js'
+import Shoe from '../models/Shoe.js'
 
 // @desc    Get all shoes
 // @route   GET /api/v1/shoes

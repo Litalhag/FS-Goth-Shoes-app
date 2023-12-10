@@ -1,11 +1,11 @@
-const express = require('express')
-const dotenv = require('dotenv')
-const morgan = require('morgan')
-const colors = require('colors')
+import express from 'express'
+import dotenv from 'dotenv'
+import morgan from 'morgan'
+import colors from 'colors'
 
-const errorHandler = require('./middleware/error')
+import errorHandler from './middleware/error.js'
 
-const connectDB = require('./config/db')
+import connectDB from './config/db.js'
 
 // Load env vars
 dotenv.config({ path: './config/config.env' })
@@ -14,7 +14,7 @@ dotenv.config({ path: './config/config.env' })
 connectDB()
 
 // Route files
-const shoes = require('./routes/shoe')
+import shoes from './routes/shoe.js'
 
 const app = express()
 
