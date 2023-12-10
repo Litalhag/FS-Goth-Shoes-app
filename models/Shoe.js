@@ -1,5 +1,5 @@
-const mongoose = require('mongoose')
-const slugify = require('slugify')
+import mongoose from 'mongoose'
+import slugify from 'slugify'
 
 const ShoeSchema = new mongoose.Schema(
   {
@@ -67,7 +67,7 @@ ShoeSchema.pre('save', function (next) {
   next()
 })
 
-module.exports = mongoose.model('Shoe', ShoeSchema)
+export default mongoose.model('Shoe', ShoeSchema)
 
 // 'ret.id = ret._id' doesn't replace _id with id,
 // but rather it copies the value of _id to a new field called id.

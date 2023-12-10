@@ -1,20 +1,22 @@
-const ErrorResponse = require('../utils/errorResponse')
-const asyncHandler = require('../middleware/async')
-const Shoe = require('../models/Shoe')
+import ErrorResponse from '../utils/errorResponse'
+import asyncHandler from '../middleware/async'
+import Shoe from '../models/Shoe'
 
 // @desc    Get all shoes
 // @route   GET /api/v1/shoes
 // @access  Public
-exports.getShoes = asyncHandler(async (req, res, next) => {
+export const getShoes = asyncHandler(async (req, res, next) => {
   const shoes = await Shoe.find()
 
-  res.status(200).json({ success: true, count: shoes.length, data: shoes })
+  return res
+    .status(200)
+    .json({ success: true, count: shoes.length, data: shoes })
 })
 
 // @desc    Get single shoe
 // @route   GET /api/v1/shoes/:id
 // @access  Public
-exports.getShoe = asyncHandler(async (req, res, next) => {
+export const getShoe = asyncHandler(async (req, res, next) => {
   const shoe = await Shoe.findById(req.params.id)
 
   if (!shoe) {
@@ -29,7 +31,7 @@ exports.getShoe = asyncHandler(async (req, res, next) => {
 // @desc    Create new shoe
 // @route   POST /api/v1/shoes
 // @access  Private
-exports.createShoe = asyncHandler(async (req, res, next) => {
+export const createShoe = asyncHandler(async (req, res, next) => {
   const shoe = await Shoe.create(req.body)
 
   res.status(201).json({
@@ -41,7 +43,7 @@ exports.createShoe = asyncHandler(async (req, res, next) => {
 // @desc    Update shoe
 // @route   PUT /api/v1/shoes/:id
 // @access  Private
-exports.updateShoe = asyncHandler(async (req, res, next) => {
+export const updateShoe = asyncHandler(async (req, res, next) => {
   const shoe = await Shoe.findByIdAndUpdate(req.params.id, req.body, {
     new: true,
     runValidators: true,
@@ -59,7 +61,7 @@ exports.updateShoe = asyncHandler(async (req, res, next) => {
 // @desc    Delete shoe
 // @route   DELETE /api/v1/shoes/:id
 // @access  Private
-exports.deleteShoe = asyncHandler(async (req, res, next) => {
+export const deleteShoe = asyncHandler(async (req, res, next) => {
   const shoe = await Shoe.findByIdAndDelete(req.params.id)
 
   if (!shoe) {
